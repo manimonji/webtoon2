@@ -1,0 +1,47 @@
+main {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
+main > .image-container {
+	width: 80%;
+	max-height: 50vh;
+	overflow: hidden;
+	border-radius: 1rem;
+}
+main > .image-container > .image {
+	transform: rotateZ(20deg);
+	width: 150%;
+	position: relative;
+	bottom: 10vh;
+	left: 15vw;
+}
+main > .title {
+	font-weight: 900;
+	font-size: 3rem;
+	margin: 2rem 0 0 0;
+	line-height: 1.4;
+	text-align: center;
+}
+main > .buttons {
+	gap: 1rem;
+	margin-top: 1.5rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.btn {
+	padding: 0.5em 1em;
+	border-radius: 0.5em;
+	text-decoration: none;
+}
+.btn-priamry {
+	color: white;
+	background-color: #084eff;
+}
+.btn-secondary {
+	color: #084eff;
+	background-color: hsl(223, 100%, 92%);
+}

@@ -1,0 +1,10 @@
+@font-face {
+	font-family: vazirmatn;
+	src: url("../fonts/vazirmatn.woff2");
+}
+body {
+	margin: 0;
+}
+* {
+	font-family: vazirmatn;
+}
